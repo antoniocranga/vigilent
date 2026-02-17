@@ -1,0 +1,6 @@
+contract_id,title,buyer_name,buyer_cui,winner_name,winner_cui,contract_value,estimated_value,num_bidders,procedure_type,cpv_code,award_date,judet,location
+CN004-2024,Achiziție mobilier școlar,Școala Generală Nr. 5 București,RO55555555,Mobilier Plus SRL,RO66666666,350000,300000,1,open,39130000-2,2024-03-20,București,București
+CN005-2024,Sistem informatic integrat,Primăria Brașov,RO77777777,IT Solutions SRL,RO88888888,1500000,1200000,2,restricted,48000000-8,2024-02-28,Brașov,Brașov
+CN006-2024,Reabilitare drum comunal,Consiliul Local Sibiu,RO99999999,Construct Pro SRL,RO10101010,4500000,4200000,1,open,45233140-2,2024-01-15,Sibiu,Sibiu
+CN007-2024,Servicii de curățenie,Spitalul Județean Iași,RO11111111,Clean Service SRL,RO12121212,250000,280000,3,open,90910000-9,2024-04-05,Iași,Iași
+CN008-2024,Echipamente laborator,Universitatea Cluj,RO13131313,Lab Equipment SRL,RO14141414,890000,650000,1,direct,38000000-5,2024-03-10,Cluj,Cluj-Napoca
