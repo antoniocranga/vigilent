@@ -133,8 +133,10 @@ export async function analyzeContractWithAI(
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-        'HTTP-Referer': 'https://vigilent.vercel.app',
+    'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+        'HTTP-Referer': process.env.NEXT_PUBLIC_VERCEL_URL 
+          ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` 
+          : 'http://localhost:3000',
         'X-Title': 'Vigilent - AI Procurement Monitor',
         'Content-Type': 'application/json',
       },
